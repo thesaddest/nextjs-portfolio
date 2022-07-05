@@ -5,15 +5,15 @@ const About = () => {
   return (
     <div
       id="fixed-target"
-      className="relative flex min-h-screen w-[80vw] m-auto"
+      className="relative flex min-h-screen w-[80vw] m-auto "
     >
       <h1
         data-scroll
         data-scroll-speed="-2"
         data-scroll-direction="horizontal"
-        className="absolute top-4 left-[5%] z-10 font-normal text-9xl font-['Playfair_Display']"
+        className="absolute top-4 left-[5%] z-10 font-bold text-5xl xl:text-9xl "
       >
-        About Me
+        About
       </h1>
       <div
         data-scroll-target="#fixed-target"

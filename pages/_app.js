@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useRef } from "react";
 import "locomotive-scroll/dist/locomotive-scroll.css";
+import ScrollTriggerProxy from "../utils/ScrollTriggerProxy";
 
 function MyApp({ Component, pageProps }) {
   const containerRef = useRef(null);
@@ -23,7 +24,8 @@ function MyApp({ Component, pageProps }) {
         }
         containerRef={containerRef}
       >
-        <main data-scroll-container ref={containerRef}>
+        <ScrollTriggerProxy />
+        <main data-scroll-container ref={containerRef} className="App">
           <Navbar />
           <Component {...pageProps} />
         </main>

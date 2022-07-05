@@ -22,21 +22,17 @@ const Navbar = () => {
         setTextColor("#ffffff");
       }
     };
-    console.log(window.scrollY);
     window.addEventListener("scroll", changeColor);
   }, []);
 
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="absolute left-0 top-0 w-full z-10 ease-in duration-300"
+      className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1
-            style={{ color: `${textColor}` }}
-            className="font-bold text-4xl font-['Playfair_Display']"
-          >
+          <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl">
             AS
           </h1>
         </Link>
@@ -46,27 +42,27 @@ const Navbar = () => {
         >
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
-            className="text-xl p-4 uppercase font-['Playfair_Display'] font-[700]"
+            className="text-xl p-4 uppercase font-bold"
           >
             <Link href="/">Home</Link>
           </motion.li>
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
-            className="text-xl p-4 uppercase font-['Playfair_Display'] font-[700]"
+            className="text-xl p-4 uppercase font-bold"
           >
             <Link href="/#works">Works</Link>
           </motion.li>
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
-            className="text-xl p-4 uppercase font-['Playfair_Display'] font-[700]"
+            className="text-xl p-4 uppercase font-bold"
           >
-            <Link href="/about">About</Link>
+            <Link href="/#about">About</Link>
           </motion.li>
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
-            className="text-xl p-4 uppercase font-['Playfair_Display'] font-[700]"
+            className="text-xl p-4 uppercase font-bold"
           >
-            <Link href="/contact">Contact</Link>
+            <Link href="/#contact">Contact</Link>
           </motion.li>
         </ul>
 
@@ -87,27 +83,27 @@ const Navbar = () => {
           <ul className="relative">
             <motion.li
               whileTap={{ scale: 0.9, Y: 0 }}
-              className="p-4 text-4xl hover:text-gray-500 uppercase font-['Playfair_Display'] font-[700]"
+              className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
               <Link href="/">Home</Link>
             </motion.li>
             <motion.li
               whileTap={{ scale: 0.9, Y: 0 }}
-              className="p-4 text-4xl hover:text-gray-500 uppercase font-['Playfair_Display'] font-[700]"
+              className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
               <Link href="/#works">Works</Link>
             </motion.li>
             <motion.li
               whileTap={{ scale: 0.9, Y: 0 }}
-              className="p-4 text-4xl hover:text-gray-500 uppercase font-['Playfair_Display'] font-[700]"
+              className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
               <Link href="/about">About</Link>
             </motion.li>
             <motion.li
               whileTap={{ scale: 0.9, Y: 0 }}
-              className="p-4 text-4xl hover:text-gray-500 uppercase font-['Playfair_Display'] font-[700]"
+              className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
-              <Link href="/contact">Contact</Link>
+              <Link href="/#contact">Contact</Link>
             </motion.li>
           </ul>
         </div>
