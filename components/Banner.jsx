@@ -62,6 +62,17 @@ const Banner = () => {
             POSTGRESQL / MONGODB{" "}
           </span>
         </h1>
+        <h1 className="whitespace-nowrap uppercase text-white leading-none text-8xl">
+          <span
+            data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-target="#up"
+            data-scroll-speed="-6"
+            className="block py-4 px-8 bg-black"
+          >
+            MUI / TAILWIND / BOOTSTRAP{" "}
+          </span>
+        </h1>
       </div>
     </div>
   );

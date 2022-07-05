@@ -44,12 +44,6 @@ const Navbar = () => {
             whileTap={{ scale: 0.9, Y: 0 }}
             className="text-xl p-4 uppercase font-bold"
           >
-            <Link href="/">Home</Link>
-          </motion.li>
-          <motion.li
-            whileTap={{ scale: 0.9, Y: 0 }}
-            className="text-xl p-4 uppercase font-bold"
-          >
             <Link href="/#works">About</Link>
           </motion.li>
           <motion.li
@@ -63,6 +57,12 @@ const Navbar = () => {
             className="text-xl p-4 uppercase font-bold"
           >
             <Link href="/#contact">Contact</Link>
+          </motion.li>
+          <motion.li
+            whileTap={{ scale: 0.9, Y: 0 }}
+            className="p-4 text-xl uppercase font-bold"
+          >
+            <Link href="/resume">Resume/CV</Link>
           </motion.li>
         </ul>
 
@@ -85,12 +85,6 @@ const Navbar = () => {
               whileTap={{ scale: 0.9, Y: 0 }}
               className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
-              <Link href="/">Home</Link>
-            </motion.li>
-            <motion.li
-              whileTap={{ scale: 0.9, Y: 0 }}
-              className="p-4 text-4xl hover:text-gray-500 uppercase"
-            >
               <Link href="/#works">About</Link>
             </motion.li>
             <motion.li
@@ -104,6 +98,12 @@ const Navbar = () => {
               className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
               <Link href="/#contact">Contact</Link>
+            </motion.li>
+            <motion.li
+              whileTap={{ scale: 0.9, Y: 0 }}
+              className="p-4 text-4xl hover:text-gray-500 uppercase"
+            >
+              <Link href="/resume">Resume/CV</Link>
             </motion.li>
           </ul>
         </div>
