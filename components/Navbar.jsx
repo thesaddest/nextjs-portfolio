@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-10 ease-in duration-300"
+      className="fixed left-0 top-0 w-full z-30 ease-in duration-300"
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
@@ -50,13 +50,13 @@ const Navbar = () => {
             whileTap={{ scale: 0.9, Y: 0 }}
             className="text-xl p-4 uppercase font-bold"
           >
-            <Link href="/#works">Works</Link>
+            <Link href="/#works">About</Link>
           </motion.li>
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
             className="text-xl p-4 uppercase font-bold"
           >
-            <Link href="/#about">About</Link>
+            <Link href="/#about">Works</Link>
           </motion.li>
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
@@ -91,13 +91,13 @@ const Navbar = () => {
               whileTap={{ scale: 0.9, Y: 0 }}
               className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
-              <Link href="/#works">Works</Link>
+              <Link href="/#works">About</Link>
             </motion.li>
             <motion.li
               whileTap={{ scale: 0.9, Y: 0 }}
               className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
-              <Link href="/about">About</Link>
+              <Link href="/about">Works</Link>
             </motion.li>
             <motion.li
               whileTap={{ scale: 0.9, Y: 0 }}

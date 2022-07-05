@@ -2,6 +2,7 @@ import Head from "next/head";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import WorksPreview from "../components/WorksPreview";
+import Banner from "../components/Banner";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero heading="Artsem Shauchuk." message="Hello, it's me" />
       <About />
       <WorksPreview />
+      <Banner />
     </div>
   );
 }

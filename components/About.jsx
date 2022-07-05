@@ -11,9 +11,9 @@ const About = () => {
         data-scroll
         data-scroll-speed="-2"
         data-scroll-direction="horizontal"
-        className="absolute top-4 left-[5%] z-10 font-bold text-5xl xl:text-9xl "
+        className="absolute top-4 left-[5%] z-10 text-5xl xl:text-8xl drop-shadow-[0_5px_3px_rgba(0,0,0)]"
       >
-        About
+        ABOUT.
       </h1>
       <div
         data-scroll-target="#fixed-target"

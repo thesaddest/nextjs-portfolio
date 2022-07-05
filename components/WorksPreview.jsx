@@ -33,7 +33,7 @@ const Work = ({ img, title }) => {
         className="cursor-pointer"
         layout="responsive"
       ></Image>
-      <h1 className="text-3xl font-bold text-center cursor-pointer pt-4 inline-block">
+      <h1 className="text-6xl text-center cursor-pointer pt-4 inline-block drop-shadow-[0_5px_3px_rgba(0,0,0)]">
         {title}
       </h1>
     </motion.div>
