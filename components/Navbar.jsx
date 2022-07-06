@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import a from "next/link";
+import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { motion } from "framer-motion";
 
