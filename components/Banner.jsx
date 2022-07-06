@@ -2,12 +2,12 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="relative min-h-screen w-[80vw] m-auto flex justify-center items-center">
+    <div className="relative min-h-screen w-[90vw] lg:w-[80vw] m-auto flex justify-center items-center">
       <div
         id="up"
-        className="min-h-screen flex flex-col justify-evenly items-center"
+        className="min-h-screen flex flex-col lg:justify-evenly justify-center items-center"
       >
-        <h1 className="whitespace-nowrap uppercase text-white leading-none text-8xl">
+        <h1 className="whitespace-nowrap uppercase text-white leading-none text-xl md:text-5xl lg:text-7xl">
           <span
             data-scroll
             data-scroll-direction="horizontal"
@@ -18,7 +18,7 @@ const Banner = () => {
             HTML / CSS / JAVASCRIPT{" "}
           </span>
         </h1>
-        <h1 className="whitespace-nowrap uppercase text-white leading-none text-8xl">
+        <h1 className="whitespace-nowrap uppercase text-white leading-none text-xl md:text-5xl lg:text-7xl">
           <span
             data-scroll
             data-scroll-direction="horizontal"
@@ -29,7 +29,7 @@ const Banner = () => {
             TYPESCRIPT / REACT / NEXT.JS
           </span>
         </h1>
-        <h1 className="whitespace-nowrap uppercase text-white leading-none text-8xl">
+        <h1 className="whitespace-nowrap uppercase text-white leading-none text-xl md:text-5xl lg:text-7xl">
           <span
             data-scroll
             data-scroll-direction="horizontal"
@@ -40,7 +40,7 @@ const Banner = () => {
             REDUX / MOBX / REST API{" "}
           </span>
         </h1>
-        <h1 className="whitespace-nowrap uppercase text-white leading-none text-8xl">
+        <h1 className="whitespace-nowrap uppercase text-white leading-none text-xl md:text-5xl lg:text-7xl">
           <span
             data-scroll
             data-scroll-direction="horizontal"
@@ -51,7 +51,7 @@ const Banner = () => {
             NODE.JS / EXPRESS / NEST.JS{" "}
           </span>
         </h1>
-        <h1 className="whitespace-nowrap uppercase text-white leading-none text-8xl">
+        <h1 className="whitespace-nowrap uppercase text-white leading-none text-xl md:text-5xl lg:text-7xl">
           <span
             data-scroll
             data-scroll-direction="horizontal"
@@ -62,7 +62,7 @@ const Banner = () => {
             POSTGRESQL / MONGODB{" "}
           </span>
         </h1>
-        <h1 className="whitespace-nowrap uppercase text-white leading-none text-8xl">
+        <h1 className="whitespace-nowrap uppercase text-white leading-none text-xl md:text-5xl lg:text-7xl">
           <span
             data-scroll
             data-scroll-direction="horizontal"

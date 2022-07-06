@@ -1,9 +1,9 @@
 import "../styles/globals.css";
-import Navbar from "../components/Navbar";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useRef } from "react";
 import "locomotive-scroll/dist/locomotive-scroll.css";
 import ScrollTriggerProxy from "../utils/ScrollTriggerProxy";
+import Navbar from "../components/Navbar";
 
 function MyApp({ Component, pageProps }) {
   const containerRef = useRef(null);
@@ -13,6 +13,13 @@ function MyApp({ Component, pageProps }) {
       <LocomotiveScrollProvider
         options={{
           smooth: true,
+          smartphone: {
+            smooth: true,
+          },
+          tablet: {
+            smooth: true,
+          },
+
           // ... all available Locomotive Scroll instance options
         }}
         watch={

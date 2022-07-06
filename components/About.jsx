@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div
       id="fixed-target"
-      className="relative flex min-h-screen w-[80vw] m-auto "
+      className="relative flex min-h-screen w-[100vw] md:w-[90vw] lg:w-[80vw] m-auto"
     >
       <h1
         data-scroll
@@ -19,7 +19,7 @@ const About = () => {
         data-scroll-target="#fixed-target"
         data-scroll
         data-scroll-sticky
-        className="w-1/2 text-xl relative z-10 mt-[15%]"
+        className="w-1/2 text-[1rem] lg:text-xl relative z-10 lg:mt-[15%] mt-0 LeftDiv"
       >
         I specialize in building complex web applications,digital product design
         and developing visual design systems. I enjoy creating effortless user
@@ -35,29 +35,29 @@ const About = () => {
         interesting dashboards, design systems or landing pages. Let’s create
         something awesome together!
       </div>
-      <div className="w-1/2 relative">
+      <div className="w-1/2 relative RightDiv">
         <div>
           <Image
             src="/assets/face3.jpg"
             width="650px"
             height="867px"
-            layout="responsive"
+            layout="fixed"
           />
         </div>
-        <div className="absolute right-[95%] bottom-[10%] w-[40%]">
+        <div className="absolute right-[95%] bottom-[10%] w-[40%] smallImg1">
           <Image
             data-scroll
-            data-scroll-speed="5"
+            data-scroll-speed="1"
             src="/assets/face6.jpg"
             width="855px"
             height="1280px"
             layout="responsive"
           />
         </div>
-        <div className="absolute left-[80%] bottom-[30%] w-[40%]">
+        <div className="absolute left-[80%] bottom-[30%] w-[40%] smallImg2">
           <Image
             data-scroll
-            data-scroll-speed="-2"
+            data-scroll-speed="1"
             src="/assets/face1.jpg"
             width="750px"
             height="981px"

@@ -10,3 +10,45 @@ html {
 body {
     overflow-x: hidden;
 }
+
+@media (max-width: 64em) {
+    .LeftDiv {
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) !important;
+        margin: 0 auto;
+        padding: 2rem;
+        backdrop-filter: blur(2px);
+        background-color: rgba(255,255,255,0.4);
+        border-radius: 20px;
+        font-weight: 700;
+    }
+    .RightDiv {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .smallImg1 {
+        width: 30%;
+        height: auto;
+        left: 5%;
+        bottom: 10%;
+    }
+
+    .smallImg2 {
+        width: 30%;
+        height: auto;
+        left: 60%;
+        bottom: 20%;
+    }
+}
+
+@media (max-width: 30em) {
+    .LeftDiv {
+        font-size: x-small;
+        width: 90%;
+    }
+}

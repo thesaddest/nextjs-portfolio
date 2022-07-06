@@ -80,7 +80,9 @@ const ContactMe = () => {
   return (
     <div className="bg-black text-white flex flex-col justify-center items-center pt-10 min-h-screen">
       <div className="flex flex-1 flex-col justify-center items-center pt-10 lg:pt-6">
-        <h2 className="text-4xl font-bold">Contact Me</h2>
+        <h2 className="text-xs sm:text-2xl lg:text-4xl font-bold">
+          It doesn't have to end here, let's connect!
+        </h2>
         <form
           onSubmit={handleSubmit}
           className="flex flex-col gap-4 mt-16 px-10 lg:mt-20 min-w-full lg:min-w-[500px]"
