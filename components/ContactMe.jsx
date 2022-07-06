@@ -141,7 +141,7 @@ const ContactMe = () => {
               <div className="text-center mt-10">
                 <button
                   type="submit"
-                  className="bg-white text-black rounded-3xl px-8 py-2 font-bold"
+                  className="bg-white text-black rounded-3xl px-8 py-2 font-bold mb-4"
                 >
                   {!status.submitting
                     ? !status.submitted
