@@ -18,7 +18,7 @@ import { motion } from "framer-motion";
 
 const Work = ({ img, title, href }) => {
   return (
-    <a href={href} target="_blank">
+    <a href={href} target="_blank" rel="noreferrer">
       <motion.div
         className="inline-block w-[50rem] mr-24"
         initial={{ filter: "grayscale(100%)" }}
@@ -106,15 +106,16 @@ const WorksPreview = () => {
           such as bowling or playing football with friends.
           <br />
           <br />
-          I'm grateful that my job allows me to work from anywhere. I’m active
-          on Instagram where I share most of the and all info about my upcoming
-          projects.
+          I&apos;m grateful that my job allows me to work from anywhere. I’m
+          active on Instagram where I share most of the and all info about my
+          upcoming projects.
         </p>
         <div>
           <a
             type="submit"
             className="bg-white text-black rounded-3xl px-8 py-2 font-bold mt-20 text-[0.5rem] md:text-lg"
             target="_blank"
+            rel="noreferrer"
             href="https://drive.google.com/file/d/1haNcM2msv6beUITv7pnpkV8p6nuz3pg9/view?usp=sharing"
           >
             MY RESUME/CV

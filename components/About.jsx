@@ -42,6 +42,7 @@ const About = () => {
             width="650px"
             height="867px"
             layout="fixed"
+            alt="img1"
           />
         </div>
         <div className="absolute right-[95%] bottom-[10%] w-[40%] smallImg1">
@@ -52,6 +53,7 @@ const About = () => {
             width="855px"
             height="1280px"
             layout="responsive"
+            alt="img2"
           />
         </div>
         <div className="absolute left-[80%] bottom-[30%] w-[40%] smallImg2">
@@ -62,6 +64,7 @@ const About = () => {
             width="750px"
             height="981px"
             layout="responsive"
+            alt="img3"
           />
         </div>
       </div>

@@ -31,14 +31,14 @@ const Navbar = () => {
       className="fixed left-0 top-0 w-full z-30 ease-in duration-300"
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
-        <a href="/">
+        <Link href="/">
           <h1
             style={{ color: `${textColor}` }}
             className="font-bold text-4xl drop-shadow-[0_5px_3px_rgba(0,0,0)]"
           >
             AS
           </h1>
-        </a>
+        </Link>
         <ul
           style={{ color: `${textColor}` }}
           className="hidden sm:flex relative"
@@ -47,7 +47,11 @@ const Navbar = () => {
             whileTap={{ scale: 0.9, Y: 0 }}
             className="text-xl p-4 uppercase font-bold drop-shadow-[0_5px_3px_rgba(0,0,0)]"
           >
-            <a href="https://github.com/thesaddest" target="_blank">
+            <a
+              href="https://github.com/thesaddest"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github
             </a>
           </motion.li>
@@ -56,6 +60,7 @@ const Navbar = () => {
             className="text-xl p-4 uppercase font-bold drop-shadow-[0_5px_3px_rgba(0,0,0)]"
           >
             <a
+              rel="noreferrer"
               target="_blank"
               href="https://www.linkedin.com/in/artsem-shauchuk/"
             >
@@ -67,6 +72,7 @@ const Navbar = () => {
             className="p-4 text-xl uppercase font-bold drop-shadow-[0_5px_3px_rgba(0,0,0)]"
           >
             <a
+              rel="noreferrer"
               href="https://drive.google.com/file/d/1haNcM2msv6beUITv7pnpkV8p6nuz3pg9/view?usp=sharing"
               target="_blank"
             >
@@ -94,7 +100,11 @@ const Navbar = () => {
               whileTap={{ scale: 0.9, Y: 0 }}
               className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
-              <a href="https://github.com/thesaddest" target="_blank">
+              <a
+                rel="noreferrer"
+                href="https://github.com/thesaddest"
+                target="_blank"
+              >
                 Github
               </a>
             </motion.li>
@@ -103,6 +113,7 @@ const Navbar = () => {
               className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
               <a
+                rel="noreferrer"
                 target="_blank"
                 href="https://www.linkedin.com/in/artsem-shauchuk/"
               >
@@ -114,6 +125,7 @@ const Navbar = () => {
               className="p-4 text-4xl hover:text-gray-500 uppercase"
             >
               <a
+                rel="noreferrer"
                 target="_blank"
                 href="https://drive.google.com/file/d/1haNcM2msv6beUITv7pnpkV8p6nuz3pg9/view?usp=sharing"
               >
