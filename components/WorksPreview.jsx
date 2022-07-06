@@ -116,7 +116,7 @@ const WorksPreview = () => {
             className="bg-white text-black rounded-3xl px-8 py-2 font-bold mt-20 text-[0.5rem] md:text-lg"
             target="_blank"
             rel="noreferrer"
-            href="https://drive.google.com/file/d/1haNcM2msv6beUITv7pnpkV8p6nuz3pg9/view?usp=sharing"
+            href="https://drive.google.com/file/d/1H1uoTk68G6oBoedWu0Momv-Dqrzzfa47/view?usp=sharing"
           >
             MY RESUME/CV
           </a>

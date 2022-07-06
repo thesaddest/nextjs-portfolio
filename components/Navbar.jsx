@@ -73,7 +73,7 @@ const Navbar = () => {
           >
             <a
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1haNcM2msv6beUITv7pnpkV8p6nuz3pg9/view?usp=sharing"
+              href="https://drive.google.com/file/d/1H1uoTk68G6oBoedWu0Momv-Dqrzzfa47/view?usp=sharing"
               target="_blank"
             >
               Resume/CV
@@ -127,7 +127,7 @@ const Navbar = () => {
               <a
                 rel="noreferrer"
                 target="_blank"
-                href="https://drive.google.com/file/d/1haNcM2msv6beUITv7pnpkV8p6nuz3pg9/view?usp=sharing"
+                href="https://drive.google.com/file/d/1H1uoTk68G6oBoedWu0Momv-Dqrzzfa47/view?usp=sharing"
               >
                 Resume/CV
               </a>
