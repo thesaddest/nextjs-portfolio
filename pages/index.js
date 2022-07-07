@@ -15,8 +15,7 @@ export default function Home() {
       </Head>
       <Hero
         heading="Artsem Shauchuk."
-        message="Hello, it's me"
-        description="Web Developer"
+        description="Creative developer crafting unique web experiences"
       />
       <About />
       <WorksPreview />

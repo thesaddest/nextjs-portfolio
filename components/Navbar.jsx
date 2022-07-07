@@ -32,10 +32,7 @@ const Navbar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-          <h1
-            style={{ color: `${textColor}` }}
-            className="font-bold text-4xl drop-shadow-[0_5px_3px_rgba(0,0,0)]"
-          >
+          <h1 style={{ color: `${textColor}` }} className="text-4xl">
             AS
           </h1>
         </Link>
@@ -45,7 +42,7 @@ const Navbar = () => {
         >
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
-            className="text-xl p-4 uppercase font-bold drop-shadow-[0_5px_3px_rgba(0,0,0)]"
+            className="text-xl p-4 uppercase"
           >
             <a
               href="https://github.com/thesaddest"
@@ -57,7 +54,7 @@ const Navbar = () => {
           </motion.li>
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
-            className="text-xl p-4 uppercase font-bold drop-shadow-[0_5px_3px_rgba(0,0,0)]"
+            className="text-xl p-4 uppercase"
           >
             <a
               rel="noreferrer"
@@ -69,7 +66,7 @@ const Navbar = () => {
           </motion.li>
           <motion.li
             whileTap={{ scale: 0.9, Y: 0 }}
-            className="p-4 text-xl uppercase font-bold drop-shadow-[0_5px_3px_rgba(0,0,0)]"
+            className="p-4 text-xl uppercase"
           >
             <a
               rel="noreferrer"
